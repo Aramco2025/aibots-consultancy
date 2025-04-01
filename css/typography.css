@@ -1,0 +1,108 @@
+/* 
+ * AI Bots Consultancy - Typography
+ * Headlines: Pacifica Condensed in UPPERCASE (using Oswald as alternative)
+ * Body: DIN Next Light in sentence case (using Work Sans Light as alternative)
+ * Features: Wide spacing on headings, light-weight body text
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Work+Sans:wght@300;400&display=swap');
+
+/* Base Typography */
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--silver-text);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6, .heading {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  color: var(--silver-text);
+  margin-top: 0;
+}
+
+h1, .h1 {
+  font-size: 3.5rem;
+  letter-spacing: 0.15em;
+  line-height: 1.2;
+}
+
+h2, .h2 {
+  font-size: 2.5rem;
+  letter-spacing: 0.12em;
+  line-height: 1.3;
+}
+
+h3, .h3 {
+  font-size: 2rem;
+  letter-spacing: 0.1em;
+  line-height: 1.4;
+}
+
+h4, .h4 {
+  font-size: 1.5rem;
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+}
+
+/* Body Text */
+p, .body-text {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+.light-text {
+  font-weight: 300;
+}
+
+.regular-text {
+  font-weight: 400;
+}
+
+/* Special Text Styles */
+.wide-spacing {
+  letter-spacing: 0.15em;
+}
+
+.section-number {
+  font-size: 1.2rem;
+  opacity: 0.8;
+  margin-bottom: 1rem;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold-statement {
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+/* Links */
+a {
+  color: var(--silver-text);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: var(--gold-highlight);
+}
+
+/* Button Text */
+.btn-text {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.9rem;
+  font-weight: 400;
+}

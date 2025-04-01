@@ -1,0 +1,59 @@
+/* 
+ * AI Bots Consultancy - Color Scheme
+ * Primary gradient: #000000 (Black) to #0C288E (Deep Blue)
+ * Silver accent: #D6D6D6
+ * Text: Silver (#D6D6D6)
+ * CTAs: White borders (#FFFFFF) with silver text
+ * Highlights: Gold (#FFD70B)
+ */
+
+:root {
+  --primary-black: #000000;
+  --primary-blue: #0C288E;
+  --silver-text: #D6D6D6;
+  --white-border: #FFFFFF;
+  --gold-highlight: #FFD70B;
+}
+
+.gradient-bg {
+  background: linear-gradient(to bottom, var(--primary-black), var(--primary-blue));
+}
+
+.gradient-bg-horizontal {
+  background: linear-gradient(to right, var(--primary-black), var(--primary-blue));
+}
+
+.text-silver {
+  color: var(--silver-text);
+}
+
+.text-white {
+  color: var(--white-border);
+}
+
+.text-gold {
+  color: var(--gold-highlight);
+}
+
+.bg-black {
+  background-color: var(--primary-black);
+}
+
+.bg-blue {
+  background-color: var(--primary-blue);
+}
+
+.border-silver {
+  border-color: var(--silver-text);
+}
+
+.border-white {
+  border-color: var(--white-border);
+}
+
+.divider {
+  height: 1px;
+  background-color: var(--silver-text);
+  opacity: 0.5;
+  margin: 2rem 0;
+}
